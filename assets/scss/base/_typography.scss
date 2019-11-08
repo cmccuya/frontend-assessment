@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800&display=swap');
+
+h1 {
+  color: #fff;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 52px;
+  font-weight: 700;
+  @media(max-width: 320px) {
+    font-size: 48px;
+  }
+}
+
+p {
+  color: $default;
+  font-size: 18px;
+  font-weight: 300;
+  margin-top: 20px;
+}
+
+a {
+  color: $default;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  &:hover {
+    color: #000;
+    text-decoration: none;
+  }
+}
+
+li {
+  font-family: 'Open Sans', sans-serif;
+}
